@@ -18,7 +18,7 @@ try:
     el.send_keys("ололо")
 
     current_dir = os.path.abspath(os.path.dirname(__file__))  # получаем путь к директории текущего исполняемого файла
-    file_path = os.path.join(current_dir, 'ololo.txt')  # добавляем к этому пути имя файла
+    file_path = os.path.join(current_dir, '../misc/ololo.txt')  # добавляем к этому пути имя файла
     element = browser.find_element(By.CSS_SELECTOR, "[type='file']")
     #element.send_keys(file_path)
 
