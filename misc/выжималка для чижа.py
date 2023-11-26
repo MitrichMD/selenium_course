@@ -29,7 +29,7 @@ def selenium_test(link, ver):
         time.sleep(0.5)
 
         pole2 = browser.find_element(By.CSS_SELECTOR, '[placeholder="Почта"]')
-        pole2.send_keys("My@echizhik.ru")
+        pole2.send_keys("@")
         time.sleep(0.5)
 
         krugliash = browser.find_element(By.CSS_SELECTOR, ".checkbox__text")
