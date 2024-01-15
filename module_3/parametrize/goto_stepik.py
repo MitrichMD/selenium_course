@@ -3,6 +3,7 @@ import time
 import math
 import pytest
 
+
 with open('C:/selenium_course/misc/lp.txt', 'r') as lp:
     login = lp.readline()
     password = lp.readline()
