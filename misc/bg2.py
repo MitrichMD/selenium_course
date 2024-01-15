@@ -1,4 +1,3 @@
-import math, time
-
-answer = math.log(int(time.time()))
-print(answer)
+with open('lp.txt', 'r') as lp:
+    login = lp.readline()
+    password = lp.readline()
